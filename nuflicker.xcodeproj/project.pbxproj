@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1E28B552BD19B1100A905E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E28B542BD19B1100A905E4 /* AppDelegate.swift */; };
 		F1E28B572BD19B1100A905E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E28B562BD19B1100A905E4 /* ViewController.swift */; };
 		F1E28B592BD19B1400A905E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E28B582BD19B1400A905E4 /* Assets.xcassets */; };
 		F1E28B5C2BD19B1400A905E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E28B5A2BD19B1400A905E4 /* Main.storyboard */; };
 		F1E28B672BD19B1500A905E4 /* nuflickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E28B662BD19B1500A905E4 /* nuflickerTests.swift */; };
 		F1E28B712BD19B1500A905E4 /* nuflickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E28B702BD19B1500A905E4 /* nuflickerUITests.swift */; };
 		F1E28B732BD19B1500A905E4 /* nuflickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E28B722BD19B1500A905E4 /* nuflickerUITestsLaunchTests.swift */; };
+		F1E28B812BD19B3600A905E4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E28B802BD19B3600A905E4 /* IOKit.framework */; };
+		F1E28B842BD19D9000A905E4 /* ScreenAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E28B832BD19C8500A905E4 /* ScreenAdjuster.swift */; };
+		F1E28B862BD19FFE00A905E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E28B852BD19FFE00A905E4 /* CoreGraphics.framework */; };
+		F1E28B882BD1A01800A905E4 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E28B872BD1A01800A905E4 /* ApplicationServices.framework */; };
+		F1E28B8A2BD1AFBD00A905E4 /* ScreenAdjusterBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E28B892BD1AFBD00A905E4 /* ScreenAdjusterBlur.swift */; };
+		F1E28B8C2BD1B8E000A905E4 /* BlendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E28B8B2BD1B8E000A905E4 /* BlendingView.swift */; };
+		F1E28B922BD1CA5F00A905E4 /* ScreenTemperatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E28B912BD1CA5F00A905E4 /* ScreenTemperatureController.m */; };
+		F1E28BCF2BD1EA9D00A905E4 /* BrightnessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E28BCE2BD1EA9D00A905E4 /* BrightnessController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		F1E28B512BD19B1100A905E4 /* nuflicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nuflicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1E28B542BD19B1100A905E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1E28B562BD19B1100A905E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1E28B582BD19B1400A905E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1E28B5B2BD19B1400A905E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +51,16 @@
 		F1E28B6C2BD19B1500A905E4 /* nuflickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nuflickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E28B702BD19B1500A905E4 /* nuflickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuflickerUITests.swift; sourceTree = "<group>"; };
 		F1E28B722BD19B1500A905E4 /* nuflickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuflickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1E28B802BD19B3600A905E4 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		F1E28B832BD19C8500A905E4 /* ScreenAdjuster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenAdjuster.swift; sourceTree = "<group>"; };
+		F1E28B852BD19FFE00A905E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1E28B872BD1A01800A905E4 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		F1E28B892BD1AFBD00A905E4 /* ScreenAdjusterBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenAdjusterBlur.swift; sourceTree = "<group>"; };
+		F1E28B8B2BD1B8E000A905E4 /* BlendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendingView.swift; sourceTree = "<group>"; };
+		F1E28B8F2BD1C54400A905E4 /* nuflicker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nuflicker-Bridging-Header.h"; sourceTree = "<group>"; };
+		F1E28B902BD1C8BB00A905E4 /* ScreenTemperatureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenTemperatureController.h; sourceTree = "<group>"; };
+		F1E28B912BD1CA5F00A905E4 /* ScreenTemperatureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenTemperatureController.m; sourceTree = "<group>"; };
+		F1E28BCE2BD1EA9D00A905E4 /* BrightnessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E28B882BD1A01800A905E4 /* ApplicationServices.framework in Frameworks */,
+				F1E28B862BD19FFE00A905E4 /* CoreGraphics.framework in Frameworks */,
+				F1E28B812BD19B3600A905E4 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +94,12 @@
 		F1E28B482BD19B1100A905E4 = {
 			isa = PBXGroup;
 			children = (
+				F1E28B832BD19C8500A905E4 /* ScreenAdjuster.swift */,
 				F1E28B532BD19B1100A905E4 /* nuflicker */,
 				F1E28B652BD19B1500A905E4 /* nuflickerTests */,
 				F1E28B6F2BD19B1500A905E4 /* nuflickerUITests */,
 				F1E28B522BD19B1100A905E4 /* Products */,
+				F1E28B7F2BD19B3600A905E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +116,12 @@
 		F1E28B532BD19B1100A905E4 /* nuflicker */ = {
 			isa = PBXGroup;
 			children = (
-				F1E28B542BD19B1100A905E4 /* AppDelegate.swift */,
+				F1E28B892BD1AFBD00A905E4 /* ScreenAdjusterBlur.swift */,
+				F1E28BCE2BD1EA9D00A905E4 /* BrightnessController.swift */,
+				F1E28B902BD1C8BB00A905E4 /* ScreenTemperatureController.h */,
+				F1E28B912BD1CA5F00A905E4 /* ScreenTemperatureController.m */,
+				F1E28B8F2BD1C54400A905E4 /* nuflicker-Bridging-Header.h */,
+				F1E28B8B2BD1B8E000A905E4 /* BlendingView.swift */,
 				F1E28B562BD19B1100A905E4 /* ViewController.swift */,
 				F1E28B582BD19B1400A905E4 /* Assets.xcassets */,
 				F1E28B5A2BD19B1400A905E4 /* Main.storyboard */,
@@ -119,6 +145,16 @@
 				F1E28B722BD19B1500A905E4 /* nuflickerUITestsLaunchTests.swift */,
 			);
 			path = nuflickerUITests;
+			sourceTree = "<group>";
+		};
+		F1E28B7F2BD19B3600A905E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1E28B872BD1A01800A905E4 /* ApplicationServices.framework */,
+				F1E28B852BD19FFE00A905E4 /* CoreGraphics.framework */,
+				F1E28B802BD19B3600A905E4 /* IOKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E28B842BD19D9000A905E4 /* ScreenAdjuster.swift in Sources */,
 				F1E28B572BD19B1100A905E4 /* ViewController.swift in Sources */,
-				F1E28B552BD19B1100A905E4 /* AppDelegate.swift in Sources */,
+				F1E28BCF2BD1EA9D00A905E4 /* BrightnessController.swift in Sources */,
+				F1E28B922BD1CA5F00A905E4 /* ScreenTemperatureController.m in Sources */,
+				F1E28B8A2BD1AFBD00A905E4 /* ScreenAdjusterBlur.swift in Sources */,
+				F1E28B8C2BD1B8E000A905E4 /* BlendingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +481,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yourstruly.nuflicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "nuflicker/nuflicker-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -468,6 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yourstruly.nuflicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "nuflicker/nuflicker-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
